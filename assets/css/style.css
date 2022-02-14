@@ -1,0 +1,107 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background-color: #162b7b;
+    padding: 20px 0;
+}
+
+header .Container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+header figure img{
+    width: 100%;
+    max-width: 120px;
+}
+
+header h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    height: 87vh;
+}
+
+main section{
+    width: 50%;
+    padding: 100px 40px;
+}
+
+.SectionFormulario{
+    background-color: #162b7b;
+}
+
+.DivFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 0 0 auto;
+
+}
+.DivFormulario input{
+    margin-bottom: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    padding: 0 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.DivFormulario button{
+    margin-top: 20px;
+    height: 40px;
+    background-color:  hsl(0deg 0% 100% / 90%);
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.SectionListaContatos{
+    background-color: hsl(228deg 70% 28% / 10%);
+}
+
+.SectionListaContatos_List{
+    width: 100%;
+    max-width: 450px;
+}
+.SectionListaContatos_List li{
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.SectionListaContatos_List p{
+    margin: 5px 0;
+}
+
+.SectionListaContatos_List li button{
+    float: right;
+    background-image: url(../img/trash.svg);
+    width: 30px;
+    height: 30px;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    border-radius: 100%;
+    background-color: hsl(0deg 95% 44% / 5%);
+    cursor: pointer;
+}
+
+.SectionListaContatos_List li h2{
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,80 @@
+/* 
+CSS = Cascading StyleSheet (Folha de estilo em cascata) 
+
+Anatomia de uma regra CSS
+
+seletor{
+    propriedade: valor da propriedade; => Declaração CSS
+    cor de fundo: vermelho; => Declaração CSS
+} => Regra CSS
+
+Tipos de seletores
+
+1. Seletor pot nome de tag/nome de elemento
+2. Seletor por classe (precisa colocar um "." antes do nome)
+3. Seletor por ID (precisa colocar um "#" antes do nome)
+            ----- Diferença entre id e classe é que id é único, ninguém pode ter o mesmo
+                  id na mesma página, classe é só um apelido mas não precisa ser único
+*/
+
+/* 1. */
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    background-color: black;
+    color: gold;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* 2. */
+
+.Comidas{
+    color: gold;
+    background-color: darkblue;
+    width: 100%;
+}
+
+.Afazeres{
+    color: gold;
+    background-color: turquoise;
+    width: 100%;
+}
+
+.Links{
+    color: gold;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.ExemploFlexBox{
+    display: flex;
+    height: 200px;
+    background-color: grey;
+    justify-content:space-between;
+}
+.ExemploFlexBox div {
+    width: 200px;
+    height: 200px;
+}
+.Exemplo1{
+background-color: salmon;
+}
+.Exemplo2{
+    background-color: orange;
+}
+.Exemplo3{
+    background-color: yellow;
+}
+
+
+/* 3. 
+
+#section3{
+    background-color: greenyellow;
+}
+
+*/
